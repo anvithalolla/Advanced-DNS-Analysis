@@ -15,5 +15,21 @@ Advanced DNS Analysis is a comprehensive forensic tool designed for the in-depth
 - tcpdump for network traffic filtering and analysis.
 - ngrep for pattern searching within pcap files.
 
-### Installation
-1. Clone the project repository:
+## Usage
+Follow these steps to analyze a pcap file for suspicious DNS activity:
+
+1. **Open the pcap file in Wireshark:**
+```
+wireshark evidence-network-tunneling.pcap
+```
+2. **Analyze the traffic using tcpdump:**
+```
+tcpdump -tnn -r evidence-network-tunneling.pcap | grep -v NULL
+```
+3. **Search for specific patterns with ngrep:**
+```
+ngrep -I evidence-network-tunneling.pcap -X "4500" -t -x 'udp'
+```
+
+
+
