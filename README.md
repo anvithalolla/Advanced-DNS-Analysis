@@ -24,13 +24,13 @@ Security analysts at the facility detect unusual DNS traffic from the internal I
 The system `10.1.1.20` is identified as the internal DNS server.
 
 Tools and Libraries Used
-- `**Wireshark**`: Used for capturing and analyzing the network packets.
-- `**tcpdump**`: Command-line utility for network monitoring and data acquisition.
-- `**tshark**`: Command-line version of Wireshark for automated, scriptable tasks.
-- `**ngrep**`: A network packet analyzer that uses regular expressions to search for and match patterns in network traffic.
-- `**Bless Hex Editor**`: A high quality, full-featured hex editor used to dissect and carve binary data from the packet capture.
-- `**Capinfos**`: A program that reads a saved capture file and returns any or all of several statistics about that file
-- `**Iodine**`: A tool for tunneling IPv4 data through a DNS server, suspected to be used in this case.
+- **`Wireshark`**: Used for capturing and analyzing the network packets.
+- **`tcpdump`**: Command-line utility for network monitoring and data acquisition.
+- **`tshark`**: Command-line version of Wireshark for automated, scriptable tasks.
+- **`ngrep`**: A network packet analyzer that uses regular expressions to search for and match patterns in network traffic.
+- **`Bless Hex Editor`**: A high quality, full-featured hex editor used to dissect and carve binary data from the packet capture.
+- **`Capinfos`**: A program that reads a saved capture file and returns any or all of several statistics about that file
+- **`Iodine`**: A tool for tunneling IPv4 data through a DNS server, suspected to be used in this case.
 
 
 ## Evidence Provided
